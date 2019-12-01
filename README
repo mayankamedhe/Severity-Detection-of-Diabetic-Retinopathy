@@ -1,0 +1,27 @@
+
+File:
+preprocessing.py
+	1. Creates new directory , preprocesses the images and put them there
+	2. Feature Extraction for given flag (orb or hog) and fills up the correspondind pickle file
+
+svm.py
+	1.Reads the pickle file and classifies based on support vector machines
+	2.Prints test accuracy
+
+rf.py
+	1.Reads the pickle file and classifies based on Random Forests
+	2.Prints test accuracy
+
+mlr.py
+	1.Reads the pickle file and classifies based on multi-logistic regression
+	2.Prints test accuracy
+
+voting.py
+	1.Reads the pickle file and classifies based on voting classfier on above three 
+	2.Prints test accuracy
+
+
+cnn.py
+	1. Reads the images
+	2. Crops and resizes 
+	3. CNN (resNet50)
